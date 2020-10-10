@@ -1,0 +1,174 @@
+*{
+-webkit-box-sizing: border-box;
+-O-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;}
+
+body {
+    font-family: 'Engagement', cursive;
+  }
+  .clearfix {
+    clear: both;
+  }
+
+  /*start */
+
+
+  .slider {
+      background: url('../image/set-makeup-cosmetic-beauty-products-pink-background_23-2148113419.jpg')no-repeat center center fixed;
+      min-height: 700px;
+      position: relative;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+ 
+  }
+
+  .slider .overlay{
+    position: absolute;
+    height:100%;
+    width:100%;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background:rgba(15, 15, 15, 0.4)
+  }
+  .slider .caption h2{font-size:50px;left:30%;
+    bottom:60%;position: absolute;color: #c52f4e}
+  .slider .caption h4{font-size:55px;left:45%;
+    bottom:40%;position: absolute;color: #c52f4e}
+
+
+  /*start agency*/
+  .agency{background:url('../image/800px_COLOURBOX12971271.jpg')no-repeat center center fixed;
+  min-height:700px;
+  position: relative;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+display:flex}
+  .agency .overlay{
+    position: absolute;
+    height:100%;
+    width:100%;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background:rgba(15, 15, 15, 0.7)}
+
+   
+
+      .agency .flex-container{display:flex;position: absolute;padding-top:180px;;width:100%;justify-content:space-around;overflow: hidden;flex-direction:row;flex-wrap: wrap;}
+      .agency .flex-container div{width:33%}
+     
+      .agency .flex-container .one{color:#eee}
+
+
+
+
+.item{background:blue;width:100%;height:auto;display:flex;justify-content: space-around;flex-wrap: wrap;align-content: center;flex-direction: row;}
+.item .box{background:yellow;width:20%;height:200px;margin:20px}
+
+
+.color{background:#ccc;padding-top:40px;font-size:18px;display:flex;width:100%;height: 300px;
+ }
+.color .pub{flex-grow: 1;line-height: 200px;width:auto;text-align: center;}
+.color .pub:hover{flex-grow: 4;transition: 3s;max-width: 100%;}
+.color .pub:nth-child(1){
+  background:red
+}
+.color .pub:nth-child(2){
+  background:blue
+}
+.color .pub:nth-child(3){
+  background:grey
+}
+.color .pub:nth-child(4){
+  background:green
+}
+.color .pub:nth-child(5){
+  background:aqua
+}
+.color .pub:nth-child(61){
+  background:yellow
+}
+.color .pub:nth-child(7){
+  background:pink
+}
+.color .pub:nth-child(8){
+  background:purple
+}
+
+
+
+
+
+.fruit{width:98vw;background:#ccc;display:flex;height:100vh;padding-bottom:60px}
+.fruit .new{width:20vw;background-size:cover;background-position: center;text-align: center;flex-grow: 1;transition: 1s;line-height: 100vh;}
+.fruit .new h1{margin:0;background:rgba(0,0,0,.8);padding:0;line-height: 100vh;transition:5s}
+.fruit .new  h1 span{background:rgba(255, 255, 255, 0);padding:25px 20px;color:#eee;width:100%;transition: 1s;letter-spacing: 2px;}
+.new:hover h1 span{color:#262626;background:rgba(255, 255, 255, 8);letter-spacing: 4px;}
+.new h1:hover{background:rgba(0,0,0,0)}
+.fruit .new:hover{width:60vw}
+.fruit .new:nth-child(1){
+  background:url('../img/1.jpg')
+}
+.fruit .new:nth-child(2){
+  background:url('../img/2.jpg')
+}
+.fruit .new:nth-child(3){
+  background:url('../img/3.jpg')
+}
+.fruit .new:nth-child(4){
+  background:url('../img/1.jpg')
+}
+.fruit .new:nth-child(5){
+  background:url('../img/2.jpg')
+}
+
+
+
+.example{width:98vw;height:100vh;display:flex;text-align: center;}
+.example .news{width:20vw;line-height: 100vh;transition:1s;background-position: center;background-size:cover;flex-grow: 1;}
+.example .news h1{background:rgba(0,0,0,.8);line-height: 100vh;padding:0;margin:0;transition:3s}
+h1 span{background:rgba(255, 255, 255, 0);color:#eee;transition: 1s;letter-spacing: 2px;width:100%;padding:25px 20px}
+.example .news:hover h1{background:rgba(0,0,0,0)}
+.example .news:hover h1 span{background:rgba(255, 255, 255, 8);color:#262626;letter-spacing: 4px;}
+.example .news:hover{width:60vw}
+
+.example  .news:nth-child(1){
+  background:url('../img/1.jpg')
+}
+.example  .news:nth-child(2){
+  background:url('../img/2.jpg')
+}
+.example .news:nth-child(3){
+  background:url('../img/3.jpg')
+}
+.example  .news:nth-child(4){
+  background:url('../img/1.jpg')
+}
+.example .news:nth-child(5){
+  background:url('../img/2.jpg')
+}
+
+
+
+.project{background:#333;width:1200px;margin:0 auto 20px;columns: 4;column-gap: 40px;}
+
+.project .work{width:100%;overflow:hidden;break-inside: avoid;margin:0 0 20px;background:#fff;padding:10px}
+.project .work img{max-width:100%}
+.project .work p{margin:0;padding:0 0 10px}
+
+.project .work h2{margin:0;padding:10px 0 0}
+
+
+
+
+
+
